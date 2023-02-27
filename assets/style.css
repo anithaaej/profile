@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+
+    --primary-text: #542494;  /* #6446C0; rgb(84 36 148 / 50%)  */ 
+    --secondary-text: #3c3c3c;
+    --background: #F8F8F8;
+    --unnamed-333333: #333333;
+
+}
+body {
+    font: normal normal normal 16px/24px Arima;
+    background-color: var(--white);
+    color: var(--black);
+    overflow-x: hidden;
+}
+
+page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+}
+
+/* Common Styles #STARTS# */
+.section_hor_line {
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+.section_title {
+    font: normal normal 600 20px/28px Arima;
+    color: var(--primary-text);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.section_desc {
+    /* font: normal normal normal 12px/18px Arima; */
+    color: var(--black);
+}
+.tit_underline {
+    position: absolute;
+    left: 0px;
+}
+/* Common Styles #ENDS# */
+
+.cv_container {
+    margin: 0px 0px 60px 60px;
+}
+.cv_header {
+    padding: 60px 60px 8px 60px;
+    /* height: 250px;  */
+    width: 100%;
+    background: var(--primary-text);
+    color: var(--white);
+}
+.profile_img {
+    width: 94px;
+}
+.cv_title {
+    font: normal normal 600 34px/38px Arima;
+    /* color: var(--primary-text); */
+}
+.cv_position {
+    font: normal normal 500 18px/24px Arima;
+    /* color: var(--secondary-text); */
+}
+.cv_sections {
+    margin: 16px 0px;
+}
+.cv_profile_content {
+    padding-right: 60px;
+    border-left: 0.1px solid rgb(84 36 148 / 10%);
+    background: rgb(84 36 148 / 4%);
+}
+.profile_exp_position {
+    font: normal normal 600 16px/20px Arima;
+}
+.profile_exp_org {
+    font: normal italic 600 16px/18px Arima;
+}
+.exp_time_span {
+    width: 128px;
+    color: var(--primary-text);
+    font: normal normal 600 14px/22px Arima;
+}
+.exp_time_span1 {
+    width: 59px;
+    color: var(--primary-text);
+    font: normal normal 600 14px/22px Arima;
+}
+.profile_exp_content_tit {
+    font: normal normal 500 16px/20px Arima;
+    text-decoration: underline;
+}
+.personal_info_icon{
+    width: 20px;
+}
+.profile_info_content {
+    font: normal normal 500 14px/16px Arima;
+    text-decoration: none;
+    color: var(--black);
+    word-break: break-all;
+}
+.profile_exp_content_desc {
+    text-align: justify;
+}
+.skill_rating_icon {
+    width: 24px;
+    padding: 0px 2px !important;
+}
+.profile_ceritifcation_period {
+    font: normal normal 600 16px/22px Arima;
+}
+@media screen and (max-width: 575px) {
+
+    .cv_container {
+        margin: 0px 26px; 
+    }
+    .cv_profile_content {
+        /* padding-right: 32px; */
+        border-left: 0px solid rgb(84 36 148 / 10%);
+        background: transparent;
+    }
+}
+@media screen and (max-width: 767px) {
+
+    body {
+        font: normal normal normal 11px/14px Arima;
+        width: fill-available;
+    }
+    .cv_container {
+        margin: 0px 0px 26px 26px; 
+    }
+    .cv_header {
+        padding: 26px 26px 2px 26px;
+        width: 100%;
+    }
+    .section_title {
+        font: normal normal 600 14px/20px Arima;
+    }
+    .section_desc {
+        /* font: normal normal normal 10px/14px Arima; */
+        text-align: justify;
+    }
+    .profile_img {
+        width: 70px;
+    }
+    .cv_title {
+        font: normal normal 600 26px/28px Arima;
+    }
+    .cv_position {
+        font: normal normal 500 10px/18px Arima;
+    }
+    .cv_sections {
+        margin: 16px 0px;
+    }
+    .cv_profile_content {
+        padding-right: 32px;
+    }
+    .profile_exp_position {
+        font: normal normal 600 12px/18px Arima;
+    }      
+    .profile_exp_org {
+        font: normal italic 600 12px/18px Arima;
+    }
+    .exp_time_span {
+        /* width: 54px; */
+        font: normal normal 600 12px/16px Arima;
+    }
+    .exp_time_span1 {
+
+        width: 28px;
+        font: normal normal 600 12px/16px Arima;
+    }
+    .profile_exp_content_tit {
+        font: normal normal 500 12px/16px Arima;
+        text-decoration: underline;
+    }
+    .personal_info_icon{
+        width: 16px;
+    }
+    .profile_info_content {
+        font: normal normal 500 12px/16px Arima;
+    }
+    .profile_exp_content_desc {
+        text-align: justify;
+    }
+    .skill_rating_icon {
+        width: 14px;
+        padding-left: 2px !important;
+    }
+    .profile_ceritifcation_period {
+        font: normal normal 600 12px/16px Arima;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    body {
+        font: normal normal normal 12px/16px Arima;
+    }
+    /* Common Styles #STARTS# */
+    .cv_header {
+        padding: 26px 26px 2px 26px;
+    }
+    .cv_container {
+        margin: 0px 0px 26px 26px; 
+    }
+    .section_title {
+        font: normal normal 600 16px/22px Arima;
+    }
+    /* Common Styles #ENDS# */
+    .cv_profile_content {
+        padding-right: 36px;
+    }
+    .profile_img {
+        width: 74px;
+    }
+    .profile_exp_position {
+        font: normal normal 600 14px/18px Arima;
+    }
+    .profile_exp_org {
+        font: normal italic 600 13px/18px Arima;
+    }
+    .exp_time_span {
+        width: 76px;
+        color: var(--primary-text);
+        font: normal normal 600 13px/22px Arima;
+    }
+    .exp_time_span1 {
+        width: 35px;
+        color: var(--primary-text);
+        font: normal normal 600 13px/22px Arima;
+    }
+    .profile_exp_content_tit {
+        font: normal normal 500 16px/20px Arima;
+        text-decoration: underline;
+    }
+    .personal_info_icon{
+        width: 20px;
+    }
+    .profile_info_content {
+        font: normal normal 500 14px/16px Arima;
+        text-decoration: none;
+        color: var(--black);
+        word-break: break-all;
+    }
+    .profile_exp_content_desc {
+        text-align: justify;
+    }
+    .skill_rating_icon {
+        width: 24px;
+        padding: 0px 2px !important;
+    }
+    .profile_ceritifcation_period {
+        font: normal normal 600 13px/18px Arima;
+    }
+}
