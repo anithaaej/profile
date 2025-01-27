@@ -108,6 +108,14 @@ page[size="A4"] {
 .profile_ceritifcation_period {
     font: normal normal 600 16px/22px Arima;
 }
+.profile_ceritifcation_content a {
+    color: #000;
+    text-decoration: none;
+}
+.profile_ceritifcation_content a:hover {
+    color: #542494;
+    font: normal bold 16px Arima;
+}
 @media screen and (max-width: 575px) {
 
     .cv_container {
